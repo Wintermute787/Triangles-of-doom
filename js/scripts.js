@@ -4,6 +4,10 @@ $(function() {
     var secondSide = parseInt($("input#second-side").val());
     var thirdSide = parseInt($("input#third-side").val());
 
+    $('.equilateral').hide();
+    $('.isosceles').hide();
+    $('.scalene').hide();
+
     if (firstSide !== 0 && secondSide !== 0 && thirdSide !== 0) {
       if (firstSide === secondSide && firstSide === thirdSide) {
         $(".equilateral").show();
