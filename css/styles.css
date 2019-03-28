@@ -1,0 +1,8 @@
+.btn-secondary {
+  background: purple;
+}
+
+.equilateral, .isosceles, .scalene {
+  display: none;
+  margin-top: 50px;
+}
