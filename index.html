@@ -10,11 +10,32 @@
   </head>
   <body>
     <div class="container">
+      <h1>Triangles of Doom</h1>
       <form id="triangle">
-        <label for="first-side">First Side</label>
-        <label for="second-side">Second Side</label>
-        <label for="third-side">Third Side</label>
+        <div class="form-group">
+          <label for="first-side">First Side</label>
+          <input id="first-side" type="text">
+        </div>
+        <div class="form-group">
+          <label for="second-side">Second Side</label>
+          <input id="second-side" type="text">
+        </div>
+        <div class="form-group">
+          <label for="third-side">Third Side</label>
+          <input id="third-side" type="text">
+        </div>
+        <button type="submit" class="btn btn-secondary">Triangle Type</button>
       </form>
+
+      <div class="equilateral">
+        <p>This is an equilateral triangle because all the sides are equal.</p>
+      </div>
+      <div class="isosceles">
+        <p>This is an isosceles triangle because only two of the sides are equal.</p>
+      </div>
+      <div class="scalene">
+        <p>This is a scalene triangle because the sides are all different lengths.</p>
+      </div>
     </div>
   </body>
 </html>
